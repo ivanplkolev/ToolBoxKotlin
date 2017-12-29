@@ -1,0 +1,139 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">false</item>
+        <!-- colorPrimary is used for coloring the Toolbar -->
+        <item name="colorPrimary">#3F51B5</item>
+        <!-- colorPrimaryDark is used for coloring the status bar -->
+        <item name="colorPrimaryDark">#303F9F</item>
+        <!-- colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets -->
+        <item name="colorAccent">#2398ff</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+
+    <style name="MainMenuButton">
+        <item name="android:layout_width">@dimen/main_button_size</item>
+        <item name="android:layout_height">@dimen/main_button_size</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="MainButtonLayout">
+        <item name="android:layout_width">0sp</item>
+        <item name="android:layout_height">120sp</item>
+        <item name="android:layout_margin">25sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/color_main_icon_background</item>
+        <item name="android:elevation">18sp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">5sp</item>
+    </style>
+
+    <style name="MainBottomText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="MainButtonRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="RotatingLevel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="LevelTextColumn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">50</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LevelTextMain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">50</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="LevelTextSecondary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">50</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="CompassTextMain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">50</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="CompassTextSecondary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">50</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="CompassTextColumn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">50</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ActivityMainLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/color_black</item>
+    </style>
+
+    <style name="AboutContactRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@color/color_main_icon_background</item>
+        <item name="android:elevation">@dimen/text_over_medium</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="AboutContactLogo">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:contentDescription">@string/string_about_linkedin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="AboutContactText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/color_about_title</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ToolBox</string>
+    <string name="string_level">Level</string>
+    <string name="string_Ruler">Ruler</string>
+    <string name="string_protractor">Protractor</string>
+    <string name="string_compass">Compass</string>
+    <string name="string_gps_default">-- \u00B0 --\' --\'\'</string>
+
+    <!--<string name="string_compass_activity_permission_granted">Permission is now granted</string>-->
+    <!--<string name="string_compass_activity_permission_needed">Permission is needed to access GPS data</string>-->
+    <!--<string name="string_compass_activity_permission_ok">Ok</string>-->
+    <!--<string name="string_compass_activity_permission_cancel">Cancel</string>-->
+    <string name="string_latitude">Latitude</string>
+    <string name="string_longtitude">Longitude</string>
+    <string name="string_horizontal">Horizontal</string>
+    <string name="string_vertical">Vertical</string>
+    <string name="string_about_activity">About</string>
+    <string name="string_about_title">By Ivan Kolev</string>
+    <string name="string_about_content">This app is part of my portfolio. \n Contact me if you are interested in my work.</string>
+    <string name="string_about_contacts">Contacts:</string>
+
+    <string name="string_about_linkedin">https://www.linkedin.com/in/ivan-kolev-a669a626</string>
+    <string name="string_about_email">ivan.pl.kolev@gmail.com</string>
+    <string name="string_about_bottom_logo">Copyright \u00A9 2017 Toolbox</string>
+</resources>

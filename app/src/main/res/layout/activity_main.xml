@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActivityMainLayout">
+
+<include layout="@layout/app_bar_layout" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/main_layout_bkg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/main_layout_icon"
+                android:layout_width="match_parent"
+                android:layout_height="180sp"
+                android:layout_gravity="center" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/MainButtonRow">
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    style="@style/MainButtonLayout"
+                    android:onClick="startCompass">
+
+                    <ImageView
+                        style="@style/MainMenuButton"
+                        android:src="@drawable/compass_icon" />
+                </RelativeLayout>
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    style="@style/MainButtonLayout"
+                    android:onClick="startLevel">
+
+                    <ImageView
+                        style="@style/MainMenuButton"
+                        android:src="@drawable/level_icon" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/MainButtonRow">
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    style="@style/MainButtonLayout"
+                    android:onClick="startRuler">
+
+                    <ImageView
+                        style="@style/MainMenuButton"
+                        android:src="@drawable/ruler_icon" />
+                </RelativeLayout>
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    style="@style/MainButtonLayout"
+                    android:onClick="startProtractor">
+
+                    <ImageView
+                        style="@style/MainMenuButton"
+                        android:src="@drawable/protractor_icon" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/MainBottomText"
+                android:onClick="startAboutActivity"
+                android:text="@string/string_about_bottom_logo" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
